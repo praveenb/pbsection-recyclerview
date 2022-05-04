@@ -10,14 +10,14 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = "com.github.praveenb.sectionrecyclerview"
-                version = "0.0.1"
+                groupId = "com.github.fajaragungpramana.sectionrecyclerview"
+                version = "0.0.4"
             }
 
             debug(MavenPublication) {
                 from components.debug
 
-                groupId = "com.github.praveenb.sectionrecyclerview"
+                groupId = "com.github.fajaragungpramana.sectionrecyclerview"
                 version = "0.0.1"
             }
         }
@@ -32,7 +32,7 @@ android {
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
-        versionName "0.0.1"
+        versionName "0.0.4"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         consumerProguardFiles "consumer-rules.pro"
