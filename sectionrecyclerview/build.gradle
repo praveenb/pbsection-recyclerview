@@ -10,14 +10,14 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = "com.github.fajaragungpramana.sectionrecyclerview"
+                groupId = "com.github.praveenb.sectionrecyclerview"
                 version = "0.0.1"
             }
 
             debug(MavenPublication) {
                 from components.debug
 
-                groupId = "com.github.fajaragungpramana.sectionrecyclerview"
+                groupId = "com.github.praveenb.sectionrecyclerview"
                 version = "0.0.1"
             }
         }

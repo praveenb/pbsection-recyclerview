@@ -10,9 +10,11 @@
         android:id="@+id/tv_section_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
         android:padding="16dp"
         android:textColor="#1F1E2D"
-        android:textSize="14sp"
+        android:textSize="20sp"
         android:textStyle="bold"
         tools:text="Title" />
 
